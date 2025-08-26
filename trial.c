@@ -10,6 +10,7 @@ main (int argc, char **argv)
     printf ("%s ", argv[i]);
     // printf ("%s \n", argv[i]);
     // printf("2. i=<%d>\n", i);
+    printf("%f", 1/0);
   }
   printf ("\n");
 //   printf("3. Finished\n");

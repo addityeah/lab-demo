@@ -1,3 +1,6 @@
 
 trial: trial.c
-	gcc trial.c -o trial
+	gcc -g trial.c -o trial
+
+clean:
+	rm -f trial core core.*
